@@ -4,5 +4,5 @@
 let numeroDoWhile = 2;
 do {
   numeroDoWhile++;
-  console.log(numeroDoWhile);
+  console.log(`La variable numeroWhile  vale: ${numeroDoWhile}`);
 } while (numeroDoWhile < 3);

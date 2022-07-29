@@ -8,7 +8,7 @@ let numeroIf = 5;
 if (numeroIf == 0) {
   console.log("numeroIf es 0");
 } else if (numeroIf > 0) {
-  console.log("numeroIf es positivo");
+  console.log(`la variable numeroIf ${numeroIf} es positiva`);
 } else {
-  console.log("numeroIf es negativo");
+  console.log(`la variable numeroIf ${numeroIf} es negativa`);
 }

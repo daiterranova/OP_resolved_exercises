@@ -7,5 +7,5 @@ Incrementar el valor de la variable en uno cada vez que se ejecute.
 let numeroWhile = -1;
 while (numeroWhile < 3) {
   numeroWhile++;
-  console.log(numeroWhile);
+  console.log(`La variable numeroWhile ahora vale ${numeroWhile}`);
 }
