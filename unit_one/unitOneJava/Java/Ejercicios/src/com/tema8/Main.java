@@ -1,4 +1,4 @@
-package com.ej1;
+package com.tema8;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,28 +18,28 @@ class Person {
     private String name;
     private int phoneNumber;
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public int getAge() {
         return age;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getPhoneNumber() {
         return phoneNumber;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
 }
