@@ -23,6 +23,4 @@ let roundedHeight = Math.round(heightMeters);
 
 let roundedWeight = Math.floor(weight);
 
-let maxValueJs = `el máximo valor que se puede obtener en Javascript + 1 ${Number.MAX_VALUE}`;
-
-console.log(`max value on JS is: ${maxValueJs}`);
+let maxValueJs = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
