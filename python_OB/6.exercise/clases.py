@@ -36,3 +36,27 @@ class Coche(Vehiculo):
 car = Coche("blue", 4, 5, 110, 200)
 car.__str__()
 print(car)
+
+# -----------------------------------------#
+""" En este segundo ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno que tenga como atributos su nombre y su nota. Deberéis de definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no. """
+
+
+class Alumno():
+    def __init__(self, nombre, nota):
+        self.nombre = nombre
+        self.nota = nota
+
+    def __str__(self):
+        if self.nota >= 7:
+            return "{}, tu nota es {}. Felicidades, has aprobado!".format(self.nombre, self.nota)
+        else:
+            return "{}, tu nota es {}. Lo siento, has desaprobado :(".format(self.nombre, self.nota)
+
+
+alumno = Alumno("Diego", 7)
+alumno.__str__()
+print(alumno)
+
+alumno2 = Alumno("Martin", 4)
+alumno2.__str__()
+print(alumno2)
