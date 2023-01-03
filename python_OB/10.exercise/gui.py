@@ -17,5 +17,5 @@ listbox.pack(padx=30, pady=30)
 action = tk.Label(frame, text="Compras", bg="green", fg="white")
 action.pack(padx=10, pady=10)
 frame.pack(expand=True, fill=tk.BOTH)
-
+#
 window.mainloop()
