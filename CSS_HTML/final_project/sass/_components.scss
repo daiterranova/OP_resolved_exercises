@@ -1,5 +1,43 @@
-$color-main: #0075FF;
-
+//keep in a variable the color of the button
+$color-main:#0075ff;
+$header-font-size:0.7rem;
+@mixin btn{
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    font-size:$header-font-size;
+}
+html{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
 .btn-main{
-    background: $color-main;
+    background-color: $color-main;
+    color: white;
+    border: 1px solid $color-main;
+    @include btn;
+
+    &:hover {
+        color:$color-main;
+        background-color: white;
+        box-shadow:0.2rem 0.1rem 0.1rem #9c9c9c4b;
+    }
+}
+.btn-sec{
+    @include btn();
+    border:1px solid transparent;
+    background: transparent;
+    &:hover{
+        border: 1px solid $color-main;
+    }
+}
+.nav-bar-item{
+    display: inline;
+    font-size: $header-font-size;
+}
+header{
+    height: 4rem;
+    border: 1px solid black;
 }
