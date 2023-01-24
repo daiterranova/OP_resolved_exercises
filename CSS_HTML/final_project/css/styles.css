@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+.nav-link {
+  color: #000;
+}
+
+:root {
+  --bs-body-font-family:"Inter", sans-serif;
+}
+
 /* solo se importa los otros files de scss */
 
 /*# sourceMappingURL=styles.css.map */
