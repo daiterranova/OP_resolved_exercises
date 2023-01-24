@@ -2,3 +2,9 @@
 @use "components";
 //globals
 @use "globals";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+:root{
+    --bs-body-font-family:'Inter', sans-serif;
+}
+/* this file only contains imports from the other scss files */
